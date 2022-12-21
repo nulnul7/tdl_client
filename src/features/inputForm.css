@@ -1,0 +1,58 @@
+.ltdFormContainer{
+    background-color: rgb(255, 247, 220);
+    color: blue;
+    padding: 25px 15px;
+}
+.headerForm{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.iForm{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.iForm > input, .iForm > textarea {
+    border: solid 2px blue;
+    background: none;
+}
+.iForm > label {
+    margin-bottom: 5px;
+}
+.iRadio{
+    margin-right: 30px;
+}
+.iRadio > input {
+    margin-right: 5px;
+}
+.submitBtn{
+    padding: 5px;
+    margin: 0 auto;
+    width: 30%;
+    justify-content: center;
+    display: flex;
+    background: none;
+    color: blue;
+    border: solid 2px blue;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.submitBtn:hover {
+    background-color: blue;
+    color: white;
+}
+
+.headerEdit{
+    font-size: 24px;
+    margin-top: 100px;
+    color: blue;
+}
+.editF{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    height: 30vh;
+}
+.editLtd{
+    margin-top: -120px;
+}

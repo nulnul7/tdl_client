@@ -1,0 +1,61 @@
+.listContainer{
+    width: 250px;
+    height: 180px;
+    background-color: rgb(255, 247, 220);
+    padding: 15px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.iconsList{
+    margin-left: auto;
+    display: flex;
+    margin-right: -10px;
+}
+.iconDel, .iconEdit{
+    margin-right: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.textInfo1 {
+    position: absolute;
+    top: 17px;
+    left: -5px;
+    font-size: smaller;
+    opacity: 0;
+}
+.textInfo2 {
+    opacity: 0;
+    position: absolute;
+    top: 17px;
+    left: -1px;
+    font-size: smaller;
+}
+.iconDel:hover .textInfo1 {
+    opacity: 30;
+    transition: opacity .6s, visibility .2s;
+}
+.iconEdit:hover .textInfo2 {
+    opacity: 30;
+    transition: opacity .7s, visibility .2s;
+}
+.iconsList > img {
+    margin-left: 15px;
+}
+.date{
+    width: 250px;
+    height: 25px;
+    background-color: rgb(251, 232, 202);
+    padding: 5px 0 5px 15px;
+    margin: 10px 0 10px -15px;
+    font-size: 14px;
+}
+.todoList{
+    font-size: 12px;
+}
+.important {
+    margin-left: auto;
+    color: blue;
+    margin-right: 10px;
+    position: absolute;
+}
