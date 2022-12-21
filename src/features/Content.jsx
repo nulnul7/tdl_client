@@ -13,7 +13,7 @@ const Content = () => {
   const [editStatus, setEditStatus] = useState(false)
   const [dumpData, setDumpData] = useState([])
 
-  const { data } = FetchData('http://localhost:5501/5R2I/todo/')
+  const { data } = FetchData('https://odd-pink-newt-gear.cyclic.app/5R2I/todo/')
    
   
   const delHandle = async (id) => {
