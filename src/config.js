@@ -1,5 +1,5 @@
 import axios from 'axios'
 
 export const axiosInstance = axios.create({
-    baseURL: 'http://localhost:5501/5R2I/todo/'
+    baseURL: 'https://odd-pink-newt-gear.cyclic.app/5R2I/todo/'
 })
